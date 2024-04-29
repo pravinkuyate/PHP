@@ -1,0 +1,20 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    padding: 0 10%;
+
+}
+.container {
+    border: 2px solid black;
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    margin: 20px auto;
+    padding:20px;
+    box-shadow: 1px 1px 2ox rgba(0,0, 0,0.125);
+}  
