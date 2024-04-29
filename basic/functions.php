@@ -33,9 +33,14 @@ echo "<h3>annomous function : the fuction dont have name they are assigned insid
 $power = function($num1,$num2){
     return $num1 ** $num2;
 };
-echo power(2*40);
+//echo power  (2*40);
 
+function modular($num1,$num2){
+    return $num1 % $num2;
+};
 
+$a=modular(12,8);
+echo $a;
 
 ?>
 

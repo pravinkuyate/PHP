@@ -11,7 +11,7 @@
 
             </div>
             
-            <div class="input">
+            <div class="foam">
                 <div class = "input_feild">
                     <label> First Name</label>
                     <input type="text",class="input">
@@ -34,12 +34,14 @@
                 </div>
 
                 <div class = "input_feild">
+                    <div class="custom_select">
                     <label>gender</label>
                     <select>
                     <option> select</option>
                     <option>Male</option>
                     <option>Female</option> 
                     </select>
+                </div>
                     
 
                 </div>
