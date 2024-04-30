@@ -94,3 +94,21 @@ color: aquamarine;
     cursor: pointer;
 
 }
+
+.container .foam .input_feild .check input[type="checkbox"]{
+
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+}
+.container .foam .input_feild .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 1px solid burlywood;
+
+    display: block;
+    position: relative;
+    background-color: chartreuse;
+
+}

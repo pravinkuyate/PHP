@@ -30,7 +30,7 @@
                     <label>password</label>
                     <input type="password",class="input">
                     
-
+    
                 </div>
 
                 <div class = "input_feild">
@@ -62,15 +62,18 @@
                     <textarea></textarea>
 
                 </div>
-                <div class = "check">
-                    <label class ="check">
-                    <input type="checkbox">
-                    <span class ="checkmark"></span>
-                    </label>
+                <div class= "input_feild">
+                    <div class = "check">
+                        <label class ="check">
+                        <input type="checkbox">
+                        <span class ="checkmark"></span>
+                        </label>
                     
-                    <p>are agree with term and condition</b>
+                        <p>are agree with term and condition</b>
 
+                    </div>
                 </div>
+
 
                 <div class ="input_feild">
                     <input type ="submit",value="register",class="btn">
