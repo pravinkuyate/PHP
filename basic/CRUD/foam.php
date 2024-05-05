@@ -1,93 +1,64 @@
-<hmtl>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-
-    </head>
-    <body>
-        <div class="container">
-            <div class="title">
-                registration foam
-
-
-            </div>
-            
-            <div class="foam">
-                <div class = "input_feild">
-                    <label> First Name</label>
-                    <input type="text",class="input">
-
-
-                </div>
-
-                <div class = "input_feild">
-                    <label> Last  Name</label>
-                    <input type="text",class="input">
-                    
-
-                </div>
-
-                <div class = "input_feild">
-                    <label>password</label>
-                    <input type="password",class="input">
-                    
-    
-                </div>
-
-                <div class = "input_feild">
-                    <div class="custom_select">
-                    <label>gender</label>
-                    <select>
-                    <option> select</option>
-                    <option>Male</option>
-                    <option>Female</option> 
-                    </select>
-                </div>
-                    
-
-                </div>
-
-                <div class = "input_feild">
-                    <label>mobile Number</label>
-                    <input type="text",class="input">
-                    
-
-                </div>
-                <div class = "input_feild">
-                    <label>mobile Number</label>
-                    <input type="text",class="input"> 
-
-                </div>
-                <div class = "input_feild">
-                    <label>address</label>
-                    <textarea></textarea>
-
-                </div>
-                <div class= "input_feild">
-                    <div class = "check">
-                        <label class ="check">
-                        <input type="checkbox">
-                        <span class ="checkmark"></span>
-                        </label>
-                    
-                        <p>are agree with term and condition</b>
-
-                    </div>
-                </div>
-
-
-                <div class ="input_feild">
-                    <input type ="submit",value="register",class="btn">
-                
-                </div>
-
-
-
-            </div>
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            Registration Form
         </div>
+        
+        <div class="form">
+            <div class="input_field">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" class="input">
+            </div>
 
-    </body>
+            <div class="input_field">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" class="input">
+            </div>
 
-</hmtl>
+            <div class="input_field">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input">
+            </div>
+
+            <div class="input_field">
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option> 
+                </select>
+            </div>
+
+            <div class="input_field">
+                <label for="mobile_number">Mobile Number</label>
+                <input type="text" id="mobile_number" class="input">
+            </div>
+           
+            <div class="input_field">
+                <label for="address">Address</label>
+                <textarea id="address"></textarea>
+            </div>
+
+            <div class="input_field">
+                <label class="check">
+                    <input type="checkbox" id="agree_terms">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Agree with terms and conditions</p>
+            </div>
+
+            <div class="input_field">
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
